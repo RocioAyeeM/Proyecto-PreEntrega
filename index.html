@@ -11,7 +11,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="div-logo">
         <a href="./index.html" class="logo"
           ><img src="./img/logo.jpg" alt="logo"
@@ -22,6 +22,11 @@
         <ul>
           <li><a href="./index.html">Inicio</a></li>
           <li><a href="./pages/contacto.html">Contacto</a></li>
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono">
+              🛒 <span id="contador-carrito">0</span>
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -36,44 +41,7 @@
 
       <section>
         <h2 class="titulo-productos text-secondary">Nuestros productos</h2>
-        <div class="contenedor-tarjetas">
-          <article class="card text-dark">
-            <img src="./img/batidora.jpg" alt="batidora" />
-            <h3>Batidora</h3>
-            <p>Batidora de 3 funciones</p>
-            <p>$99000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-          <article class="card text-dark">
-            <img src="./img/cafetera.jpg" alt="cafetera" />
-            <h3>Cafetera Expresso</h3>
-            <p>Cafetera multifuncion</p>
-            <p>$159900</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-          <article class="card text-dark">
-            <img src="./img/juguera.jpg" alt="juguera" />
-            <h3>Juguera 2.0</h3>
-            <p>Juguera electrica</p>
-            <p>$260000</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-          <article class="card text-dark">
-            <img src="./img/pava.jpg" alt="pava electrica" />
-            <h3>Pava Matera</h3>
-            <p>Pava electrica con corte automatico</p>
-            <p>$60900</p>
-            <button class="btn bg-secondary text-dark">
-              Agregar al carrito
-            </button>
-          </article>
-        </div>
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas"></div>
       </section>
     </main>
 
@@ -86,5 +54,7 @@
         </ul>
       </nav>
     </footer>
+
+    <script type="module" src="./js/index.js"></script>
   </body>
 </html>

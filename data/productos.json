@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "nombre": " Batidora Max",
+    "precio": 99000,
+    "img": "img/batidora.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": " Cafetera Industrial",
+    "precio": 159900,
+    "img": "img/cafetera.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": " Juguera 2.0",
+    "precio": 260000,
+    "img": "img/juguera.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": " Pava Electrica",
+    "precio": 60900,
+    "img": "img/pava.jpg"
+  }
+]

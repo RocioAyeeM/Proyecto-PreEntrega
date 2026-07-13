@@ -11,7 +11,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="div-logo">
         <a href="../index.html" class="logo"
           ><img src="../img/logo.jpg" alt="logo"
@@ -22,6 +22,11 @@
         <ul>
           <li><a href="../index.html">Inicio</a></li>
           <li><a href="./contacto.html">Contacto</a></li>
+          <li>
+            <a href="./carrito.html" class="carrito-icono">
+              🛒 <span id="contador-carrito">0</span>
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -41,14 +46,12 @@
           <label for="mensaje"> Escriba un mensaje: </label>
           <textarea name="message" id="mensaje"></textarea>
         </div>
-        <!-- your other form fields go here -->
+
         <button class="btn bg-secodary text-dark" type="submit">Send</button>
       </form>
     </main>
-
     <footer>
       <p>Sitio realizado por Rocio para talento tech ©</p>
-
       <nav>
         <ul class="footer-list">
           <li><img src="../img/whatsapp.png" alt="logo-whatsapp" /></li>
@@ -56,5 +59,6 @@
         </ul>
       </nav>
     </footer>
+    <script type="module" src="../js/carrito.js"></script>
   </body>
 </html>

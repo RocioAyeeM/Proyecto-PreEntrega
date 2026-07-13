@@ -67,8 +67,6 @@ footer {
 }
 
 .div-logo img {
-  /* margin-left: 2rem;*/
-  /* font-weight: bold;*/
   width: 100px;
   height: auto;
   display: block;
@@ -199,6 +197,17 @@ footer .footer-list {
 .grupo-input textarea {
   min-height: 10rem;
   resize: vertical;
+}
+/*-------------------------------------------------*/
+/*              CARRITO                        */
+/*-------------------------------------------------*/
+.mensaje-carrito-vacio {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+.acciones-carrito {
+  margin-top: 2rem;
 }
 
 @media (max-width: 600px) {
